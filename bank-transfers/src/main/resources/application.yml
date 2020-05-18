@@ -1,0 +1,13 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /transfer
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
